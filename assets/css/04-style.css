@@ -1,0 +1,22 @@
+*{ 
+   /*to select and change all of types
+    color: rgb(0, 82, 154);  */
+}
+
+h1{
+    text-align: center;
+}
+.ikinci{
+    color: rgb(160, 21, 21);
+}
+/* This is comment  */
+.center{
+    text-align: center;
+    color: blue;
+}
+p span{
+    background-color: rgb(100, 183, 255);
+}
+p.center{
+    background-color: brown;
+}

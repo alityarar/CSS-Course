@@ -1,0 +1,26 @@
+.side-menu{
+   background-color: rgb(68, 68, 68);
+}
+ul{
+    list-style-type: none;
+    text-align: start;
+}
+nav.side-menu ul a{
+    color: brown;
+    text-decoration: none;
+    font-weight: 400;
+
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: capitalize;
+
+}
+
+nav.side-menu ul a:hover{
+    color: aqua;
+    
+}
+
+nav.side-menu ul a:visited{
+    color: black;
+}

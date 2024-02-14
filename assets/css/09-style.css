@@ -1,0 +1,7 @@
+ul.list-lorem{
+    list-style-type: upper-roman  ;
+    list-style-position: inside;
+}
+ul.list{
+    list-style-type: "✅";
+}

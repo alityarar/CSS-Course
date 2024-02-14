@@ -1,0 +1,38 @@
+/*
+This is comment section
+*/
+
+*{
+    color: rgb(0, 0, 0);
+}
+p{
+    color: red;
+}
+.about{
+    color: aqua;
+}
+p.about{
+    color: green;
+}
+
+.meta{
+    color: cadetblue !important; 
+    /* 
+    
+    !important yazarsak onceligi ona vermis oluruz
+     ve en ustun sayilan o olur 
+     
+     Ikinci en ustun ise style'dir
+
+     eger style kodu html icinde olursa ve css dosyasindan sonra
+     yazilirsa, daha ustun olur
+
+     cunku java ve html yukaridan assagi dogru uygular
+
+
+     
+     */
+}
+h3.meta{
+    color: brown;
+}

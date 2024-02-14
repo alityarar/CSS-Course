@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+
+h1.title{
+    font-size: 40px;
+    text-decoration: underline;
+    font-style: italic;
+    
+}
+p.about{
+    line-height: 30px;
+    font-family: "Protest Revolution" ;
+    font-weight: 600;
+    
+}
+p{
+    text-transform: uppercase;
+}
+
