@@ -8,11 +8,17 @@
        div.menu div p,h2,a{
         color: red;
        } 
-       
+
        .loremli>p{
         background-color: aqua;
        }
 
+       .menu+div{
+        background-color: red;
+       }
+       .menu~p{
+        background-color: yellow;
+       }
        
     </style>
 </head>
@@ -32,6 +38,9 @@
         </div>
         <p>Lorem ipsum dolor sit amet.</p>
     </div>
+
+    <p>first paragraph</p>
+    <p>second paragraph</p>
 
 </body>
 </html>
