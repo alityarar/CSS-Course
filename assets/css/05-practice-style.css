@@ -1,0 +1,26 @@
+.brokoli:hover{
+    background-color: aqua;
+}
+.save-me:active{
+    background-color: aqua;
+}
+.list-here li a:visited{
+    color: rgb(166, 255, 0);
+}
+.space{
+   background-color: antiquewhite;
+}
+.space:focus{
+    background-color: brown;
+}
+.sectioned p:nth-child(2){
+    background-color: blueviolet;
+}
+
+.sectioned p:nth-child(odd){
+    background-color: rgb(43, 195, 226);
+}
+
+.sectioned>p:last-child{
+    background-color: rgb(161, 161, 161);
+}
