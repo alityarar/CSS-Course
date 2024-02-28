@@ -1,0 +1,17 @@
+.list{
+    list-style: upper-roman ;
+    
+}
+.list li{
+    padding: 10px;
+}
+.list li::before{
+    content: " * ";
+}
+.list li::after{
+    content: "✅";
+}
+.list li:hover{
+    background-color: aqua;
+    
+}

@@ -1,0 +1,50 @@
+.about::first-letter{
+    text-transform: lowercase;
+    font-size: small;
+}
+.about::selection{
+    background-color: aqua;
+}
+h1.tittle::before{
+    content: "";
+    height: 25px;
+    width: 10px;
+    background-color: yellow;
+    display: inline-block ;
+    margin-right: 10px;
+}
+
+h1.tittle::after{
+    content: "";
+    height: 25px;
+    width: 10px;
+    background-color: yellow;
+    display: inline-block ;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+span::before{
+    content: "{";
+        color: red;
+        font-size: 2rem;
+}
+span::after{
+    content: "}";
+        color: red;
+        font-size: 2rem;
+}
+.list li::marker{
+    color: red;
+    font-size: 2rem;
+}
+.list{
+    list-style-type: circle;
+}
+
+.list li:nth-child(2){
+    background-color: aqua;
+}
+.list li:nth-child(1){
+    list-style-type: square;
+}
