@@ -15,3 +15,30 @@
     background-color: aqua;
     
 }
+
+.list2{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.list2 li{
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: bisque;
+}
+
+.list2 li:hover{
+    color: red;
+    cursor:pointer;
+}
+
+.list2 li:first-child::before{
+    content: "✅";
+    margin-right: 10px;
+}
+
+.list2 li:nth-child(2)::before{
+    content: "✅✅";
+    margin-right: 10px;
+}
