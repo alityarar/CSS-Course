@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    
+    
+}
+nav.nav-menu ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: rgb(126, 119, 110);
+}
+
+nav.nav-menu ul li{
+    display: inline-block;
+}
+
+nav.nav-menu ul li a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: rgb(35, 86, 86);
+    padding: 7px;
+    display: block;
+}
+
+.nav-menu ul a:hover{
+    background-color: bisque;
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+}
+
+nav.nav-menu >ul>li:hover .dropdown{
+
+display: grid;
+
+
+}
