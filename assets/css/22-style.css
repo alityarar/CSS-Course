@@ -1,0 +1,81 @@
+
+.container div{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    
+   
+    
+}
+
+.container{
+    display: flex;
+   
+    
+    
+}
+
+
+p{
+    margin-top: 42px;
+    padding-left: 44px;
+}
+
+
+
+.between{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.between div{
+    background-color: rgb(255, 107, 74);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    
+}
+
+.around{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.around div{
+    background-color: rgb(74, 255, 107);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.evenly{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.evenly div{
+    background-color: rgb(255, 93, 244);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+
+.menu a{
+    text-decoration: none;
+    background-color: rgb(161, 161, 255);
+    padding: 30px;
+}
+
+.menu a:hover{
+    background-color: rgb(118, 118, 253);
+}
+.menu{
+    display: flex;
+    padding-top: 40px;
+    justify-content: center;
+
+    
+}
