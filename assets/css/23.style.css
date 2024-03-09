@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+}
+
+.container div{
+    height: 50px;
+}
+
+.container div:first-child{
+    background-color: bisque;
+    /*flex-grow: 1;
+    flex-shrink: 1; 
+    flex-basis: 200px;*/
+    flex: 1 1 200px;
+
+}
+.container div:last-child{
+    background-color: aquamarine;
+    flex-grow: 3;
+    flex-basis: 300px;
+    flex-shrink: 3;
+}
+
+.container2 div{
+    background-color: rgb(251, 104, 104);
+    height: 50px;
+    width: 100px;
+}
+.container2{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    row-gap: 20px;
+    flex-wrap: wrap;
+    
+}
