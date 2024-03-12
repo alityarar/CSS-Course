@@ -1,3 +1,54 @@
 .title1{
-    border: 2px solid red;
+    border: 5px solid red;
+    display: inline-block;
+    border-radius: 20px;
+    
+}
+.dashed{
+    display: inline-block;
+    border: 3px dashed blue;
+}
+
+.double{
+    display: inline-block;
+    border: 7px double rgb(233, 10, 10);
+}
+.top{
+    display: inline-block;
+    border-top: 7px double rgb(0, 0, 0);
+}
+.sides{
+    display: inline-block;
+    border-radius: 30px;
+    border-right: 7px double rgb(10, 25, 233);
+    border-left: 7px double rgb(10, 25, 233);
+}
+.button1{
+    padding: 20px;
+    border-radius: 30px;
+}
+.circle{
+    background-color: rgb(31, 135, 179);
+    height: 50px;
+    width: 50px;
+    border-radius: 40px;
+}
+.button2{
+    padding: 15px 30px;
+    border-radius: 5px 29px;
+}
+
+.renk{
+     color: rgb(157, 24, 0);
+     padding: 10px 20px;
+    background-color: aqua;
+}
+.ornek1{
+border-radius: 30px 5px 5px 30px;
+}
+.ornek2{
+    border-radius: 5px;
+}
+.ornek3{
+    border-radius: 5px 30px 30px 5px;
 }
