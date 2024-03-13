@@ -27,6 +27,7 @@ a.facebook:hover{
     list-style-type: none;
     font-size: 30px;
     background-color: bisque;
+    margin: 10px;
 }
 
 .buttons li a:hover{
