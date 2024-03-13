@@ -33,3 +33,6 @@ a.facebook:hover{
 .buttons li a:hover{
     color: rgb(240, 0, 0);
 }
+.buttons li a:visited{
+    color: blue;
+}
