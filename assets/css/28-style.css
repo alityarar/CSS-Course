@@ -22,5 +22,12 @@ body{
     height: 40vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: center bottom;
+}
+
+.banner3{
+    background-image: url(../image/pexels-photo-255379.jpeg);
+    height: 30vh;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
