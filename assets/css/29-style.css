@@ -1,0 +1,10 @@
+.bg{
+    padding: 50px;
+}
+.bg1{
+    background-image: linear-gradient(green, yellow,red,blue);
+}
+
+.bg2{
+    background-image: linear-gradient( to left,yellow,purple 20%);
+}
