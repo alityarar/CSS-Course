@@ -12,3 +12,37 @@
 .bg3{
     background-image: radial-gradient(circle,red,yellow);
 }
+.bg2 p{
+    text-shadow: 5px 5px rgb(149, 149, 149);
+}
+
+h1{
+    font-size: 3rem;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+    border-radius: 50%;
+    display: inline-block;
+    
+}
+
+.sq{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    display: inline-block;
+    margin: 20px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    text-align: centr;
+    
+}
+.sq1{
+    box-shadow: 3px 3px 8px rgb(97, 97, 97);
+}
+.sq2{
+    box-shadow: -5px -5px 8px rgb(255, 157, 0);
+}
+.sq3{
+    box-shadow: 0px 0px 10px rgb(118, 177, 29);
+}
