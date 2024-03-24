@@ -8,3 +8,7 @@
 .bg2{
     background-image: linear-gradient( to left,yellow,purple 20%);
 }
+
+.bg3{
+    background-image: radial-gradient(circle,red,yellow);
+}
