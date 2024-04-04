@@ -25,3 +25,7 @@ body{
     --primary-color:blue
    
 }
+.profile{
+    width: 20px;
+    border-radius: 100px;
+}
