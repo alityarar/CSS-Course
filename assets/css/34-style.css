@@ -6,3 +6,9 @@
     right: 0px;
     left: 0px;
 }
+
+.megaHead{
+    background-color: cadetblue;
+    position: sticky;
+    top: 25px;
+}

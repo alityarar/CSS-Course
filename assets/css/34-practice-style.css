@@ -1,0 +1,33 @@
+nav{
+    background-color: rgb(95, 138, 255);
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+body{
+    background-color: aliceblue;
+}
+.textHere{
+    background-color: white;
+    height: 250px;
+    width: 1000px;
+    padding: 20px;
+    margin-left: 100px;
+}
+
+.askQuestion{
+    background-color: rgb(255, 89, 89);
+    border-radius: 20px;
+    width: 300px;
+    left: 580px;
+    top: 50px;
+    position: absolute;
+}
+a{
+    position: absolute;
+    
+}
+input{
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
