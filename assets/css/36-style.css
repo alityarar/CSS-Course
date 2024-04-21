@@ -1,0 +1,21 @@
+.box{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    transform: translate(40px,50px) rotateX(15deg) rotateY(60deg)
+    rotate(-50deg) scale(2,2)
+    
+    
+}
+
+button:hover{
+    transform: scale(2); translate: 40px;
+}
+.practiceDiv{
+    background-color: antiquewhite;
+    transform: scale(2);
+}
+.practiceDiv2{
+    background-color: aquamarine;
+    transform: translate(0px,20px);
+}
