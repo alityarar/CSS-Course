@@ -7,9 +7,13 @@
     
     
 }
+button{
+    transition: background-color 1s;
+}
 
 button:hover{
     transform: scale(2); translate: 40px;
+    background-color: blue;
 }
 .practiceDiv{
     background-color: antiquewhite;
