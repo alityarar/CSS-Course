@@ -17,9 +17,17 @@ h1:hover{
     height: 100px;
     background-color: aqua;
     margin-bottom: 10px;
-    transition: background-color 1s;
+    transition: background-color 1000ms;
 }
 
 .box1:hover{
     background-color: red;
+}
+
+.box2:active{
+    transition-property:  background-color;
+    transition-duration: 500ms;
+
+    transform: scaleX(1.5);
+    background-color: black;
 }
