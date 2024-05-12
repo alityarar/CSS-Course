@@ -25,9 +25,31 @@ h1:hover{
 }
 
 .box2:active{
-    transition-property:  background-color;
-    transition-duration: 500ms;
+    transition-property:  background-color, transform, rotate;
+    transition-duration: 2000ms;
 
     transform: scaleX(1.5);
     background-color: black;
+}
+.box2{
+    transition: scale 1000ms, width 2000ms ease-out, background-color 2000ms ease-in-out;
+}
+.box3{
+    transition: rotate 2000ms ease-out, background-color 2000ms ease-in-out;
+}
+.box3:hover{
+    transition-property: all;
+   transition-duration: 2000ms;
+    background-color: yellow;
+    rotate: 360deg;
+
+    transition-timing-function: ease-out;
+    transition-delay: 10ms;
+}
+.box4{
+    transition: width 2000ms ease-in, background-color 2000ms ease-in-out;
+
+}
+.box4:hover{
+    width: 200px;
 }
