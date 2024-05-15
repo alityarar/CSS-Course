@@ -15,4 +15,34 @@ body{
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+@media screen and (min-width:600px) {
+    .container div:first-child{
+        display: flex;
+    }
+    .container div{
+        width: 48%;
+        margin-right: 0;
+    }
+
+    .container div:nth-child(2n){
+        margin-right: 0;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .container div{
+        width: 32%;
+        margin-right: 0;
+        background-color: rgb(91, 139, 243);
+        
+    }
+
+    .container div:nth-child(2n){
+        margin-right: 0;
+    }
+    
 }
