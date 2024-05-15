@@ -42,7 +42,8 @@ body{
     }
 
     .container div:nth-child(2n){
-        margin-right: 0;
+        margin-right: 0; 
+        j
     }
     
 }
