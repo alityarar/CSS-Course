@@ -1,0 +1,16 @@
+:root{
+    --color3: rgb(52,52,52);
+    --color1: rgb(70,189,244);
+    --color2: #(FBB040);
+}
+
+body{
+    font-family: 'Nunito Sans';
+    margin: 0;
+    padding: 10px;
+}
+
+section.topbar{
+    background-color: var(--color3);
+    display: flex;
+}
