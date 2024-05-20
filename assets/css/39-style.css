@@ -2,6 +2,7 @@
     --color3: rgb(52,52,52);
     --color1: rgb(70,189,244);
     --color2: #(FBB040);
+    --color4: rgb(197, 130, 30);
 }
 
 body{
@@ -13,4 +14,39 @@ body{
 section.topbar{
     background-color: var(--color3);
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    color: white;
+}
+
+section.topbar .socialMedia{
+    display: none;
+    gap: 20px;
+    
+}
+section.topbar .socialMedia i{
+    color: white;
+    font-size: larger;
+}
+
+section.topbar ul{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+
+section.topbar ul a{
+    color: var(--color4);
+    text-decoration: none;
+}
+
+section.menubar{
+    
+}
+
+@media screen and (min-width:760px)  {
+    section.topbar .socialMedia{
+        display: flex;
+    }
 }
