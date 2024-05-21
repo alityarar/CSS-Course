@@ -52,7 +52,9 @@ section.menubar ul a{
     transition-property: background-color, scale;
     display: inline-block;
 }
-
+section.menubar ul{
+    display: none;
+}
 section.menubar ul a:hover{
     background-color: var(--color1);
     scale: 1.1;
@@ -85,10 +87,77 @@ section.menubar .logo img{
     border-radius: 50px;
     object-fit: cover;
 }
+section.menubar .bar{
+    display: block;
+    color: var(--color4);
+    scale: 1.1;
+    cursor: pointer;
+}
+section.slider{
+    background-image: url(../image/glitter-golden-bokeh-lights-scaled.jpeg);
+    background-repeat: none;
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+section.slider h2{
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: rgb(0, 81, 173);
+    font-size: 3rem;
+    font-weight: 7000;
+    text-shadow: 0 0 10px var(--color3);
+}
+
+section.topbar .socialMedia span{
+    display: none;
+}
+
+section.topbar .socialMedia i:hover+span{
+    display: block;
+    position: absolute;
+}
+.whatsapp{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    font-size: 2.2rem;
+    background-color: rgb(55, 221, 55);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
 
 @media screen and (min-width:760px)  {
     section.topbar .socialMedia{
         display: flex;
         
     }
+    section.menubar ul{
+        display: flex;
+    }
+    section.menubar .bar{
+        display: none;
+    }
+
+    main{
+        display: flex;
+    }
+    main :first-child{
+        flex: 1;
+    }
+    main :last-child{
+        flex: 1;
+    }
+    
 }
